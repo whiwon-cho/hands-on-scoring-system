@@ -4,5 +4,5 @@ This repository contains a lightweight scoring system designed for hands-on labs
 
 It consists of two components:
 
-- `server/`: A Python server that receives scoring submissions, stores results, and sends custom metrics to Datadog.
-- `client/`: A CLI tool that users run inside lab environments (e.g., Instruqt) to register, submit missions, and track their progress.
+- `server/`: Run this on your own public server (e.g., EC2)
+- `client/`: Use this in the hands-on lab environment (e.g., Instruqt).
